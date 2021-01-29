@@ -4,7 +4,27 @@
 	class="bg2 accent--text">
 		<!-- Skewed background -->
 		<div id="bg__1" class="bg1"></div>
+
+		<!-- Mobile layout not yet done - Snackbar -->
+		<v-snackbar
+		shaped timeout="-1" color="primary"
+		transition="scroll-y-transition"
+		class="mb-5"
+		v-model="snackbar">
+			Mobile layout still in development.
+			<template v-slot:action="{ attrs }">
+				<v-btn
+				color="yellow"
+				text
+				rounded
+				v-bind="attrs"
+				@click="snackbar = false">
+					Alright
+				</v-btn>
+			</template>
+		</v-snackbar>
 		
+		<!-- Main Content -->
 		<div
 		class="d-flex flex-row justify-center align-center"
 		style="min-height: 100vh">
@@ -156,7 +176,8 @@ export default {
 	data () {
 		return {
 			tab: null,
-			projects
+			projects,
+			snackbar: true
 		}
 	}
 }
