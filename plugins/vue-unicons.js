@@ -2,13 +2,13 @@ import Vue from 'vue'
 import Unicon from 'vue-unicons/dist/vue-unicons-ssr.common.js'
 
 import {
-    uniFacebookF, uniTwitterAlt, uniLinkedinAlt, uniGithubAlt
+    uniTwitterAltMonochrome, uniGithubAltMonochrome, uniLinkedinAltMonochrome, uniFacebookFMonochrome
 } from 'vue-unicons/src/icons'
 
 import 'vue-unicons/dist/vue-unicons-ssr.css'
 
 Unicon.add([
-    uniFacebookF, uniTwitterAlt, uniLinkedinAlt, uniGithubAlt
+    uniTwitterAltMonochrome, uniGithubAltMonochrome, uniLinkedinAltMonochrome, uniFacebookFMonochrome
 ])
 
 Vue.use(Unicon)

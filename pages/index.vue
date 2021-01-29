@@ -51,7 +51,7 @@
 								<p class="px-7 py-4 text-center occupation primary--text">
 									WEB DEVELOPER
 								</p>
-								<p class="px-7 pt-4 text-center text-body-1 font-weight-light">
+								<p class="px-7 pt-4 text-center text-subtitle-2 font-weight-light">
 									I am a young fullstack web developer and also a computer science student at Masaryk University, Brno.
 									<br />
 									I also take interest in IoT devices, Python scripting and ethical hacking.
@@ -125,25 +125,25 @@
 				icon large
 				type="a" href="https://www.facebook.com/filipt0ma/" target="_blank"
 				class="my-3">
-					<unicon fill="#212121" name="facebook-f" />
+					<unicon fill="#212121" name="facebook-f" icon-style="monochrome" />
 				</v-btn>
 				<v-btn
 				icon large
 				type="a" href="https://twitter.com/filiptoma_/" target="_blank"
 				class="my-3">
-					<unicon fill="#212121" name="twitter-alt" />
+					<unicon fill="#212121" name="twitter-alt" icon-style="monochrome" />
 				</v-btn>
 				<v-btn
 				icon large
 				type="a" href="https://www.linkedin.com/in/filip-toma-7283b71a1/" target="_blank"
 				class="my-3">
-					<unicon fill="#212121" name="linkedin-alt" />
+					<unicon fill="#212121" name="linkedin-alt" icon-style="monochrome" />
 				</v-btn>
 				<v-btn
 				icon large
 				type="a" href="https://github.com/filiptoma/" target="_blank"
 				class="my-3">
-					<unicon fill="#212121" name="github-alt" />
+					<unicon fill="#212121" name="github-alt" icon-style="monochrome" />
 				</v-btn>
 			</client-only>
 		</div>
