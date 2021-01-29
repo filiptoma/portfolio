@@ -31,8 +31,8 @@
 			<div class="d-flex flex-wrap-reverse justify-center ma-16">
 				<!-- Card -->
 				<div
-				class="white"
-				style="height: 600px; width: 400px; position: relative;">
+				class="white d-flex flex-column justify-space-between"
+				style="height: 600px; width: 400px;">
 					<div class="ma-10">
 						<v-tabs
 						color="accent"
@@ -51,7 +51,7 @@
 								<p class="px-7 py-4 text-center occupation primary--text">
 									WEB DEVELOPER
 								</p>
-								<p class="px-7 py-4 text-center text-body-1 font-weight-light">
+								<p class="px-7 pt-4 text-center text-body-1 font-weight-light">
 									I am a young fullstack web developer and also a computer science student at Masaryk University, Brno.
 									<br />
 									I also take interest in IoT devices, Python scripting and ethical hacking.
@@ -84,14 +84,24 @@
 						</v-tabs-items>
 					</div>
 					<!-- Download CV button -->
-					<v-btn
-					color="grey lighten-3"
-					height="60px"
-					block depressed tile elevation
-					style="position: absolute; bottom: 0;"
-					type="a" href="cv-2021.pdf" download>
-						Download CV
-					</v-btn>
+					<div class="d-flex flex-row">
+						<v-btn
+						color="grey lighten-3"
+						height="60px"
+						width="50%"
+						depressed tile elevation
+						type="a" href="cv-2021.pdf" target="_blank">
+							Show CV
+						</v-btn>
+						<v-btn
+						color="grey lighten-3"
+						height="60px"
+						width="50%"
+						depressed tile elevation
+						type="a" href="cv-2021.pdf" download>
+							Download CV
+						</v-btn>
+					</div>
 				</div>
 				<!-- Greeting -->
 				<div class="ma-16">
