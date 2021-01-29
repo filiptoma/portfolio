@@ -12,7 +12,7 @@ $ npm run generate
 # publish directory
 $ dist
 ```
-Additional info in [Nuxt.js docs](https://nuxtjs.org/docs/2.x/deployment/netlify-deployment).
+[Additional info](https://nuxtjs.org/docs/2.x/deployment/netlify-deployment).
 
 ## How 2 run locally
 ```bash
